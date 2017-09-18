@@ -11,7 +11,6 @@ mod "garethr/docker",         '5.3.0'
 mod "puppetlabs/apt",         '2.3.0'
 mod "stahnma/epel",           '1.2.2'
 
-##########################################################
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -32,8 +31,8 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/gauravkr19/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'https://github.com/gauravkr19/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
