@@ -5,13 +5,13 @@ profile::base::ntp_servers:
   - 2.ubuntu.pool.ntp.org
   - 3.ubuntu.pool.ntp.org
 profile::apache::default_vhost: false
-#profile::apache::apache_vhost_servers: {
-#  'gauravkr193.mylabserver.com': {
-#    port: 80,
-#    docroot: 'var/www/gauravkr193'
-#   },
-#  'gauravkr193b.mylabserver.com': {
-#    port: 80,
-#    docroot: '/var/www/gauravkr193b'
-#  }
-#}
+profile::apache::apache_vhost_servers: {
+  'gauravkr193.mylabserver.com': {
+    port: 80,
+    docroot: 'var/www/gauravkr193'
+   },
+  'gauravkr193b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/gauravkr193b'
+  }
+}
