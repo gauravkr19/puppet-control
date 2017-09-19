@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'gauravkr192.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/gauravkr192', 
+  },
+  'gauravkr192b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/gauravkr192b'
+  }
+}
